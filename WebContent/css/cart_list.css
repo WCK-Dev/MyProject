@@ -1,0 +1,29 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+.mypage_top { clear: both; border: 2px solid black; width: 100%;}
+.mypage_top table { border: 2px solid black; width: 100%; line-height: 250px}
+.mypage_top tr { height: 180px;}
+.mypage_top th { width: 250px; background: black; color: white; font-size: 50px; line-height: 80px;}
+.mypage_top td { font-size: 40px; line-height: 80px; text-align: center;}
+	
+#member_tab {float: left; margin-top: 10px; width: 20%; box-sizing: border-box;}
+#member_tab h3 { text-indent: 20px; color: black; font-size: 1.5em; padding-top: 20px; padding-bottom: 20px;}
+#member_tab ul { list-style: none;}
+#member_tab ul li { margin-bottom: 15px; font-size: 1.2em; padding-top: 15px; margin-left: 40px;}
+#member_tab a { text-decoration: none; color: black; font-size: 1.1em;}
+#member_tab a:hover { color: #c23ca7; font-weight: bold;}
+
+
+#cartlist { float: right; width: 80%; box-sizing: border-box; padding-left: 60px; height: 800px; margin-top: 40px;}
+#cartlist h3 { color: rgb(212, 142, 80);}
+#cartlist table { width: 100%; border-collapse: collapse; text-align: center; font-size: 1.2em;}
+#cartlist tr { height: 100px;}
+#cartlist td { border-top: 1px solid darkgray; border-bottom: 1px solid darkgray;}
+#product_img { width: 140px; height: 120px;}
+#pname, #sname { font-size: 0.8em; font-weight: bold;}
+#cartlist .end_row { text-align: right; padding-right: 10px; border:hidden; border-top: 1px solid darkgray;}
+#move { text-align: center; margin-top: 20px;}                                                                                                            
+#qty { text-align: center; margin-bottom: 5px; background: #eee; height: 15px;}
+.change_qty { height: 15px; line-height: 20px; cursor: pointer;}
+.order_btn { background: white; color: black; border: 1px solid black; height: 28px; margin-bottom: 3px; cursor: pointer; font-weight: bold; font-family: 'NanumSquareRound';}
+#move button { height:65px; width: 200px; font-weight: bold; color: white; background: black; border: 1px solid black;; cursor: pointer; font-size: 20px; font-family: 'NanumSquareRound';}

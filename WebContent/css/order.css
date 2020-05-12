@@ -1,0 +1,26 @@
+#container { width: 500px; margin: 30px auto; border: 1px solid #ddd; padding: 20px; font-family: 'NanumSquareRound';}
+h3 { text-align: center;}
+table { width: 100%;}
+table, th, td { border: 1px solid black; border-collapse: collapse;}
+td { padding: 10px;}
+th { background: black; color: white; border-bottom: 1px solid white;}
+tr { height: 30px;}
+input[type="text"] { height: 20px;}
+.end_row { border: hidden; border-top: 1px solid black;}
+.end_row td { padding-top: 10px;  text-align: center;}
+.end_row input[type="button"], .end_row input[type="reset"] { width: 80px; height: 30px;}
+#move { text-align: center; margin-top:10px;}
+a { text-decoration: none; color: blue;}
+input[type="button"],input[type="reset"] { text-align: center; border: 1px solid black; background: black; color:white; font-weight: bold; width: 80px; height: 30px; cursor: pointer; font-family: 'NanumSquareRound'}
+	
+@font-face { 
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'NanumSquareRound'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }

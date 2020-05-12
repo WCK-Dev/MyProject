@@ -1,0 +1,10 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+#content { width: 100%; text-align: center;}
+#join_block { display: inline-block; width: 80%;}
+
+#content #login_block h2 { text-align: center; margin-top: 120px; font-size: 3em; margin-bottom: 30px;}
+#content #login_block ul li { margin-bottom: 15px;}
+#content #login_block p { font-size: 2em; margin-left: -300px; margin-bottom: 15px}
+#content #login_block input[type="text"], #content #login_block input[type="password"] { width: 28%; height: 35px;}
+#content #login_block button { margin: 30px 50px; width:30%; height: 40px; font-size: 0.9em; background: black; color: white; font-weight: bold; border: none; font-family: 'NanumSquareRound'; margin-bottom: 120px; cursor: pointer;}

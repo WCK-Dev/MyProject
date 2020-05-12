@@ -1,0 +1,41 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+#side_bar {float: left; margin-top: 10px; width: 20%; box-sizing: border-box;}
+#side_bar h3 { text-indent: 20px; color: black; font-size: 1.5em; padding-top: 20px; padding-bottom: 20px;}
+#side_bar ul { list-style: none;}
+#side_bar ul li { margin-bottom: 15px; font-size: 1.2em; padding-top: 15px; margin-left: 40px;}
+#side_bar a { text-decoration: none; color: black; font-size: 1.1em;}
+#side_bar a:hover { color: #c23ca7; font-weight: bold;}
+
+#freeboard { float: right; width: 80%; height: 800px;  box-sizing: border-box;}
+#freeboard h2{ text-align: left; color:black; font-size:2em; margin-top: 30px; margin-bottom: 30px; color: orange;}
+#freeboard table { width: 86%; margin-left:80px; margin-bottom: 10px; border: hidden;}
+#freeboard th { background: black; color: white;}
+#freeboard tr { height: 40px; border-bottom: 1px solid white;}
+#freeboard td { padding-left: 10px;}
+#freeboard select { height: 30px;}
+#freeboard input[type="text"] { height: 25px; width: 250px;}
+#freeboard input[type="password"] { height: 25px; width: 280px;}
+#freeboard button { text-align: center; border: 1px solid black; background: black; color:white; font-weight: bold; width: 80px; height: 30px; cursor: pointer;}
+#freeboard .subject_col { text-align: left; }
+#freeboard .subject_col a { text-decoration: none; color: black;}
+#freeboard .subject_col a:hover { font-weight: bold;}
+#freeboard .move { text-align: right; padding-right: 40px;}
+#freeboard #paging { text-align: center;}
+#freeboard_head { background: rgb(248, 227, 159); }
+#freeboard_date { text-align: right; text-decoration: underline;}
+#freeboard_content { border: 1px gray solid;}
+#btn_row { width:90%; text-align: right;}
+#freeboard button { text-align: center; border: 1px solid black; background: black; color:white; font-weight: bold; width: 80px; height: 40px; cursor: pointer;} */
+
+/* #freeboard { float: right; width: 80%; height: 800px; box-sizing: border-box;}
+#freeboard h2{ text-align: center; color:black;}
+#freeboard table { margin-left: 40px;}
+#freeboard th{ background: black; color: white;}
+#freeboard tr { height: 40px;}
+#freeboard td { padding-left: 10px; text-align: left;}
+#freeboard input[type="text"]{ height: 25px; width: 480px;}
+#password { width: 200px;}
+#freeboard .move { text-align: right; padding-right: 40px;}
+#btn_row { width:80%; text-align: right;}
+#freeboard button { text-align: center; border: 1px solid black; background: black; color:white; font-weight: bold; width: 80px; height: 40px; cursor: pointer;} */

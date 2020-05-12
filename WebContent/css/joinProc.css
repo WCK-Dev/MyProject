@@ -1,0 +1,28 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+#mypage { align-content: center;}		
+.mypage_top { clear: both; border: 2px solid black; width: 100%;}
+.mypage_top table { border: 2px solid black; width: 100%; line-height: 250px}
+.mypage_top tr { height: 180px;}
+.mypage_top th { width: 250px; background: black; color: white; font-size: 50px; line-height: 80px;}
+.mypage_top td { font-size: 40px; line-height: 80px; text-align: center;}
+
+.select { position: relative; left: 15%; margin-top: 20px;}
+.select h1 { font-size: 1.7em; font-weight: bolder; margin-top:40px; margin-bottom: 40px;}
+.select table { width: 70%;}
+.select tr { height: 55px;}
+.first_col { text-indent: 20px; font-size: 25px; font-weight: bold;}
+.second_col { font-size: 18px;}
+
+#last_row { height: 80px;}
+#last_row td { padding-top: 50px; text-align: center;}
+#commit { background: black; color: white; font-weight: bold; text-align: center; font-size: 30px;
+        border: none; width: 30%; height: 80px; margin-bottom: 50px;}
+        
+/* #userinfo { width: 100%; box-sizing: border-box; padding-left: 60px; height: 800px;}
+#userinfo table { width: 85%; margin-left: 60px; margin-top: 100px;}
+#first_row { font-size: 1.8em; padding-bottom: 20px; color:purple;}
+.first_col {background: purple; color: white; font-weight: bold;}
+#userinfo tr { height: 45px;} 
+#last_row { text-align: center; paddig-right: 80px;}
+input[type="button"] { margin: 30px; width:30%; height: 40px; font-size: 0.9em; font-weight: bold;} */

@@ -1,0 +1,19 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+#content { width: 100%; text-align: center;}
+#join_block { display: inline-block; width: 80%;}
+
+#content #join_block h2 { text-align: center; margin-top: 50px; font-size: 3em; margin-bottom: 30px;}
+#content #join_block ul li { margin-bottom: 15px;}
+#content #join_block .ohter { margin-left: 20px; width: 47%; height:40px; text-indent: 10px;}
+#content #join_block #userid { margin-left: 20px; width: 35%; height:40px; text-indent: 10px; }
+#content #join_block input[type="button"] { width: 130px; height: 50px; background: black; color: white; font-weight: bold; border: none; font-family: 'NanumSquareRound'; cursor: pointer;}
+#content #join_block input[type="checkbox"] { margin-top: 20px; margin-left: 60px; font-family: 'NanumSquareRound';}
+#content #join_block #zipcode1 { margin-left:20px;}
+#content #join_block #zipcode2 { margin-right: 20px;}
+#content #join_block #zipcode1, #zipcode2 { width: 15%; height:40px;}
+#content #join_block label { font-size: 0.9em;}
+#content #join_block p { width: 80%; margin-left: 50px; font-size: 0.9em;}
+#content #join_block p a { text-decoration: none; color:rgb(89, 110, 226);}
+#content #join_block p a:hover { text-decoration:underline; color: tomato;}
+#content #join_block button { margin: 30px 50px; width:50%; height: 40px; font-size: 0.9em; background: black; color: white; font-weight: bold; border: none; font-family: 'NanumSquareRound'; cursor: pointer;}

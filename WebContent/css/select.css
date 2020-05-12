@@ -1,0 +1,30 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+
+.mypage_top { clear: both; border: 2px solid black; width: 100%;}
+.mypage_top table { border: 2px solid black; width: 100%; line-height: 250px}
+.mypage_top tr { height: 180px;}
+.mypage_top th { width: 250px; background: black; color: white; font-size: 50px; line-height: 80px;}
+.mypage_top td { font-size: 40px; line-height: 80px; text-align: center;}
+	
+#member_tab {float: left; margin-top: 10px; width: 20%; box-sizing: border-box;}
+#member_tab h3 { text-indent: 20px; color: black; font-size: 1.5em; padding-top: 20px; padding-bottom: 20px;}
+#member_tab ul { list-style: none;}
+#member_tab ul li { margin-bottom: 15px; font-size: 1.2em; padding-top: 15px; margin-left: 40px;}
+#member_tab a { text-decoration: none; color: black; font-size: 1.1em;}
+#member_tab a:hover { color: #c23ca7; font-weight: bold;}
+	
+.select { float:left; width: 78%;}
+.select h1 { margin: 50px; font-size: 1.8em; font-weight: bolder}
+.select table { width: 100%; margin-left: 8%;}
+.select tr { height: 55px;}
+.first_col { text-indent: 20px; font-size: 25px; font-weight: bold;}
+.second_col { font-size: 18px;}
+
+#last_row { height: 80px;}
+#last_row td { padding-top: 50px; text-align: center;}
+#commit, #modify { background: black; color: white; font-weight: bold; text-align: center; font-size: 30px; margin-top: 30px;
+        border: none; width: 25%; height: 50px; cursor: pointer;}
+#commit { margin-left: 12%;}
+#delete { margin-left: 12%; background: black; color: white; font-weight: bold; text-align: center; font-size: 30px;
+        border: none; width: 50%; height: 50px; margin-bottom: 50px; cursor: pointer;}
+        

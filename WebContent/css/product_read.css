@@ -1,0 +1,42 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+            
+#product_read section { padding-top:20px; padding-left: 20px;}
+#product_read section span { font-size: 0.8em; color:darkgray; }
+
+#product_read #product_img, #desc { float: left;}
+#product_read #product_img { width: 45%; margin : 20px 5px; text-align: center;}
+#product_read #product_small { padding-top: 5px;}
+#product_read .small-img { width: 70px; height: 70px; margin: 10px; cursor: pointer; box-shadow: 2px 2px 2px #ccc;}
+#product_read .small-img:hover { outline: 1px solid lightgray; }
+#product_read span { display: block; font-size: 0.8em; color:darkgray;}
+
+/* 제품정보 */
+#product_read #desc { width: 45%; margin : 20px 5px; padding-top: 20px; padding-left: 30px;}
+#product_read #desc h3 { padding-left: 60px; font-size: 1.6em; color: orange; font-weight: bold;}
+#product_read #desc hr { width: 85%; text-align: left;}
+#product_read #desc ul { list-style: none;}
+#product_read #desc li { font-size: 1.2em; line-height: 1.8; margin-left: 75px;}
+#product_read #desc button { width: 40%; height: 50px; margin-top: 20px; margin-bottom: 20px; font-weight: bold;}
+#product_read #add_cart { font-weight: bold; font-size: 20px; background: white; border:3px solid black; box-shadow: none; cursor: pointer;}
+#product_read #buy { font-weight: bold; font-size: 20px; color: white; background: black; border:3px solid black; box-shadow: none; cursor: pointer;}
+#product_read #update { font-weight: bold; font-size: 20px; background: #c23ca7; color:white; border:3px #c23ca7 black; box-shadow: none;}
+#product_read input[type="number"] { height: 25px; text-align: right; width: 45px;}
+#product_read #buttons { text-align: center;}
+
+#product_read #line { clear: both;}
+
+#product_read #information { clear: both; padding-left: 30px; min-height: 600px; margin-bottom: 90px;}
+#product_read #information pre { height: 100%}
+#information pre { width: 100%; overflow: auto; white-space: pre-wrap; line-height: 30px;}
+#product_read .bright {font-size: 1.2em; color: rgb(212, 142, 80); margin-bottom: 20px;}
+
+#product_read #review { margin-top: 100px; clear: both; padding-left: 30px; min-height: 50px; margin-bottom: 90px;}
+#product_read #review h2{ text-align: left; color:black; font-size:2em; margin-top: 30px; margin-bottom: 30px; color: orange;}
+#product_read #review table { width: 100%; margin-bottom: 10px; border-top: 1px black dotted;}
+#product_read #review tr { height: 30px;}
+#product_read #review td { padding-left: 10px;}
+#product_read #review_head { background: rgb(248, 227, 159); }
+#product_read #review_date { text-align: right; text-decoration: underline;}
+#product_read #review_content { border: 1px gray solid;}
+#product_read #review button { text-align: center; border: 2px solid black; background: black; color:white; font-weight: bold; width: 240px; height: 60px; cursor: pointer; 
+						margin-top: 30px; font-family: 'NanumSquareRound'; font-size: 1.1em;}

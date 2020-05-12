@@ -1,0 +1,19 @@
+#container { width: 400px; margin: 0px auto; border: 1px solid gray; font-family: 'NanumSquareRound';}
+#header {padding-top: 30px; text-align: center;}
+h2 { text-align: center;}
+ul { text-align: center;}
+input[type="button"], input[type="submit"] { width:100px; background: black; color: white; border:2px solid black; box-shadow: none; font-family: 'NanumSquareRound';}
+#ok { margin: 30px 50px; width:80%; height: 40px; font-size: 0.9em; font-weight: bold;}
+
+@font-face { 
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'NanumSquareRound'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal;
+}

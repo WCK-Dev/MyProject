@@ -1,0 +1,45 @@
+#container { width: 1400px; margin:0 auto; position: relative; font-family: 'NanumSquareRound';}
+            
+#container span { display: block; font-size: 0.8em; color:darkgray; padding-left: 20px;}
+
+#side_bar {float: left; border: 1px solid gray; margin-top: 20px; width: 20%; box-sizing: border-box; font-family: 'NanumSquareRound';}
+#side_bar h3 { text-indent: 20px; color:black; font-size: 1.5em; padding-top: 20px; padding-bottom: 20px;}
+#side_bar ul { list-style: none; margin-left: 40px; font-size: 1.2em; padding-top: 10px; padding-bottom: 10px;}
+#side_bar ul li { margin-bottom: 15px;}
+#side_bar a { text-decoration: none; color: black;}
+#side_bar a:hover { color: orange; font-weight: bold;}
+
+
+#product { float: left; width: 80%; height:1200px; box-sizing: border-box; text-align: center; margin-bottom: 50px;} 
+#product h2 { font-size: 1.4em; color: rgb(212, 142, 80); text-align: left; padding-left: 40px; font-size: 2.5em; padding-top: 20px; padding-bottom: 20px;}
+#product hr { width: 90%; height: 2px; background: rgb(139, 125, 125); margin-top: 3px; border: hidden;}
+
+.each {   /* border: 1px solid hotpink; */}
+.each span { font-size: 0.8em; font-weight: bold;}
+figure { display: inline-block; display: inline-block; width: 23%; height: 25%;}
+figure.products { font-family: 'NanumSquareRound'; position: relative; overflow: hidden; margin: 10px; min-width: 180px; max-width: 1000px; width: 22%; color: black; text-align: cetner;
+				font-size: 16px; background-color: #ffffff;}
+figure.products * { display: inline-block; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.35s ease; transition: all 0.35s ease;}
+figure.products img { width: 100%; height: 82%; backface-visibility: hidden; vertical-align: top;}
+figure.products:after, figure.products figcaption { position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+figure.products:after { content: ''; background-color: rgba(255, 255, 255, 255, 255); -webkit-transition: all 0.35s ease; transition: all 0.35s ease; opacity: 0; }
+figure.products figcaption { z-index: 1; padding: 40px; } 
+figure.products h5, figure.products .links { width: 100%; margin: 5px 0; padding: 0;}
+figure.products h5 { line-height: 1.1em; font-weight: 700; font-size: 0.9em; text-transform: uppercase; opacity: 0;}
+figure.products p { font-size: 0.8em; font-weight: 300; letter-spacing: 1px; text-align: center; opacity: 0; top: 50%; -webkit-transform: translateY(40px); transform: translateY(40px);}
+figure.products p { font-size: 0.8em; font-weight: 300; letter-spacing: 1px; text-align: center; opacity: 0; top: 50%; -webkit-transform: translateY(40px); transform: translateY(40px);}
+figure.products b { width: 80%; color: black;}
+figure.products i { position: absolute; bottom: 10px; right: 10px; padding: 20px 25px; font-size: 34px; opacity: 0; -webkit-transform: translateX(-10px); transform: translateX(-10px);}
+figure.products a { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1;}
+figure.products:hover img, figure.products.hover img { zoom: 1; filter: alpha(opacity=50); -webkit-opacity: 0.5; opacity: 0.5;}
+figure.products:hover:after, figure.products.hover:after { opacity: 1; position: absolute; top: 10px; bottom: 10px; left: 10px; right: 10px;}
+
+figure.products:hover h5, figure.products.hover h5, figure.products:hover p,
+figure.products.hover p, figure.products:hover i, figure.products.hover i { -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); opacity: 1;}
+
+#paging { margin-top: 30px;}
+
+.paging_now { display: inline-block; border: 1px solid lightgray; min-width: 20px; min-height: 20px; background: black; color: white; padding: 5px;}
+.paging_on { display: inline-block; border: 1px solid lightgray; min-width: 20px; min-height: 20px; cursor: pointer; padding: 5px;}
+.paging_on:hover { color: orange; font-weight: bold;}
+.paging_off { display: inline-block; border: 1px solid lightgray; min-width: 20px; min-height: 20px; padding: 5px;}

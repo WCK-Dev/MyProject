@@ -1,0 +1,68 @@
+.top{ width: 1200px; height: 60px; margin: 0 auto; overflow:hidden; font-family: 'NanumSquareRound';}
+.top div{ float: left; height: 100%;}
+.top-left{ width: 500px;}
+.top-left ul{ overflow: hidden; line-height: 60px;}
+.top-left ul li{ margin-top: 20px; line-height: 20px; float: left; width: 20%; height: 20px;}
+.top-left ul li:nth-child(2){ border-left:1px solid #000; padding-left: 2%;}
+.top-left ul li a{ color: #000; text-decoration: none;}
+.top-left ul li a:hover{ color: #c23ca7;}
+.top-right ul{ overflow: hidden; line-height: 60px; text-align: right;}
+.top-right ul li:nth-child(1){ width: 64%;}
+.top-right{ width: 700px;}
+.top-right ul li{ float: left; width: 12%;}
+.top-right ul li a{ color: #000; text-decoration: none;}
+.top-right ul li a:hover{ color: orange;}
+/* 탑 부분 끝 ----------------------- */
+.nav{ width: 100%; height: 80px; background-color: rgba(255,255,255,0.9); font-family: 'NanumSquareRound';}
+.nav-top{ width: 100%; height: 80px; overflow:hidden}
+.nav-top ul{ float: left;}
+.nav-top ul li a{ text-decoration: none;}
+.nav-bottom ul li a{ text-decoration: none;}
+.nav-left{ width: 20%; text-align: right;}
+.nav-left li{ line-height: 80px;}
+.nav-left li a{ font-size: 30px; color: #c23ca7; font-family: 'yg-jalnan';}
+.nav-middle{ width: 50%; overflow: hidden;}
+.nav-middle li{ float: left; line-height: 80px; width: 19%; text-align: center;}
+.nav-top .nav-middle li:hover a{ color: #c23ca7; font-size: 20px; font-weight: bold; transition: all 0.5s;}
+.nav-top .nav-middle li a.hover{ color: #c23ca7; font-size: 20px; font-weight: bold;  transition: all 0.5s;}
+.nav-middle li a{ color: #000;}
+.nav-middle li:nth-child(1){ margin-left: 5%;}
+.nav-right{ width: 25%; overflow: hidden;}
+.nav-right li{ float: left;}
+.nav-right li input{ margin-top: 20px; line-height: 35px; text-align: center; border:none; border-bottom: 1px solid #000; font-size: 18px;}
+.nav-right li button{ border:none; margin-top: 15px; background-color: #fff; cursor: pointer;}
+.nav-right li button img{ width: 90%;}
+.nav-bottom{ width: 100%; height: 0; overflow:hidden; background-color: #fff; transition: all 0.5s; position: relative; z-index: 9999;}
+.nav-bottom.hover{ height: 220px; transition: all 0.5s;}
+.nav-bottom ul{ float: left;}
+.nav-bottom .nav-middle{ width: 50%; height: 100%;}
+.nav-bottom .nav-middle li{ line-height: 50px;}
+.nav-bottom .nav-middle li:nth-child(1){ height: 100%;}
+.nav-bottom .nav-middle li a{ color: rgba(0,0,0,0.6);}
+.nav-bottom .nav-middle li a:hover{ color: #000; font-weight: bold;}
+.bottom-left{ width: 20%; height: 100%;}
+.bottom-right{ width: 25%; height: 100%;}
+/* 네비 부분 끝 ----------------------- */
+
+.banner{ width: 100%; height: 600px; position: relative; overflow: hidden;}
+.banner ul{ height: 85%; overflow:hidden;}
+.banner ul:nth-child(1){ width: 9600px;}
+.banner ul:nth-child(2){ height: 3%; width: 20%; margin: 2% auto 0;}
+.banner ul li{ float: left;}
+.banner ul:nth-child(2) li{ background-color: rgba(0,0,0,0.1); border-radius: 30px; width: 15%; height: 100%; margin: 0 2.5%; cursor: pointer;}
+.banner ul:nth-child(2) li:hover{ background-color: #c23ca7;}
+.banner ul:nth-child(1) li{ width: 1920px; position: relative; transition: all 5s;}
+.banner ul li img{ width: 1920px; height: 500px;}
+
+
+@font-face { 
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'NanumSquareRound'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }
